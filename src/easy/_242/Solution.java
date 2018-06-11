@@ -1,3 +1,5 @@
+package easy._242;
+
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
