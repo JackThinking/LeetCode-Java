@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hard/_279/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,7 +35,7 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hard/_279/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
+            <state relative-caret-position="120">
               <caret line="5" selection-start-line="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
@@ -361,7 +360,7 @@
       <workItem from="1531137788543" duration="3492000" />
       <workItem from="1531224568870" duration="1871000" />
       <workItem from="1531309585621" duration="3459000" />
-      <workItem from="1531395563182" duration="3587000" />
+      <workItem from="1531395563182" duration="3855000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -381,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42686000" />
+    <option name="totallyTimeSpent" value="42954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="985" extended-state="0" />
@@ -396,7 +395,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="0.38058037" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49791667" visible="true" weight="0.37946942" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.37946942" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32871974" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -731,7 +730,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hard/_279/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
+        <state relative-caret-position="120">
           <caret line="5" selection-start-line="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
