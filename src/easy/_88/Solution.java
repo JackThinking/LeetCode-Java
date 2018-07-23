@@ -24,10 +24,4 @@ public class Solution {
             nums1[i] = nums2[i];
         }
     }
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] nums1 = {1,2,3,0,0,0};
-        int[] nums2 = {2,5,6};
-        System.out.println(solution.merge(nums1,3,nums2,3));
-    }
 }
