@@ -450,7 +450,7 @@
       <workItem from="1532952313921" duration="3255000" />
       <workItem from="1533037515065" duration="2708000" />
       <workItem from="1533125452723" duration="2803000" />
-      <workItem from="1533262123590" duration="4136000" />
+      <workItem from="1533262123590" duration="4748000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -470,7 +470,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100798000" />
+    <option name="totallyTimeSpent" value="101410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
