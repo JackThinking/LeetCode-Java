@@ -1,12 +1,14 @@
 package medium._322;
 
 
+import java.util.Arrays;
+
 /**
  * Created by Citrix on 2018/7/8.
  */
 public class Solution {
     public int coinChange(int[] coins, int amount) {
-        int[] dp = new int[amount+1];
+        /*int[] dp = new int[amount+1];
 
         for (int i = 1; i <= amount; i++) {
             dp[i] = Integer.MAX_VALUE;//因为要取不到才行
@@ -22,8 +24,19 @@ public class Solution {
         }
         else{
             return dp[amount];
-        }
+        }*/
 
+        int[] dp = new int[amount+1];
+        int max = amount+1;
+        Arrays.fill(dp,max);
+        dp[0] = 0;
+        for (int coin:coins){
+            for (int i = coin; i <= amount; i++) {
+                dp[i] = Math.min(dp[i-coin]+1,dp[i]);
+            }
+
+        }
+        return dp[amount]>amount?-1:dp[amount];
     }
     public static void main(String[] args) {
         Solution solution = new Solution();
