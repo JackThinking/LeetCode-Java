@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/medium/_647/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/_647/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/_647/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/medium/_647/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="393">
+              <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -81,8 +80,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_714/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="353">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -467,7 +466,7 @@
       <workItem from="1533974135387" duration="4552000" />
       <workItem from="1534224860297" duration="8515000" />
       <workItem from="1534319944840" duration="6660000" />
-      <workItem from="1534385974045" duration="9194000" />
+      <workItem from="1534385974045" duration="10700000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -487,7 +486,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136487000" />
+    <option name="totallyTimeSpent" value="137993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,21 +510,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50267667" side_tool="true" weight="0.2764977" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49732333" weight="0.2764977" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49732333" visible="true" weight="0.2764977" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49571735" weight="0.328341" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" weight="0.2281106" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="9" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="9" weight="0.32949308" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24250536" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31105992" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31105992" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="9" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="9" weight="0.32949308" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -858,13 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/_714/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -872,10 +864,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_714/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_647/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="393">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
     </entry>
