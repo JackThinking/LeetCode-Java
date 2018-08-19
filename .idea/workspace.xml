@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/_237/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/_19/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,11 +82,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/_237/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/_19/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/easy/_682/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -123,7 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/firstUniqChar.java" />
         <option value="$PROJECT_DIR$/src/easy/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
@@ -174,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/structure/Interval.java" />
         <option value="$PROJECT_DIR$/src/structure/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/easy/_237/Solution.java" />
+        <option value="$PROJECT_DIR$/src/easy/_19/Solution.java" />
       </list>
     </option>
   </component>
@@ -240,7 +258,7 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="_237" type="462c0819:PsiDirectoryNode" />
+              <item name="_19" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -463,7 +481,7 @@
       <workItem from="1534385974045" duration="11204000" />
       <workItem from="1534479465054" duration="4288000" />
       <workItem from="1534590587347" duration="2460000" />
-      <workItem from="1534677634063" duration="805000" />
+      <workItem from="1534677634063" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -483,7 +501,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146050000" />
+    <option name="totallyTimeSpent" value="147331000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,7 +579,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/md/每日一刷10.md" />
     <entry file="file://$PROJECT_DIR$/src/easy/_198/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -811,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/_682/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14592">
@@ -915,10 +925,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/_682/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_237/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/_19/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
         </state>
       </provider>
     </entry>
