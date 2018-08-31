@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/extend/SortSummary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extend/SortSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extend/SortSummary.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +18,7 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_160/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
+            <state relative-caret-position="621">
               <caret line="23" column="5" selection-start-line="20" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
@@ -27,8 +27,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_61/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="918">
+              <caret line="34" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -36,8 +36,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hard/_148/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="65" column="12" lean-forward="true" selection-end-line="76" />
+            <state relative-caret-position="1755">
+              <caret line="65" column="12" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,8 +48,8 @@
       <file leaf-file-name="SortSummary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/extend/SortSummary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="-286">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,7 +60,7 @@
       <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structure/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="1107">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#166#167#0" expanded="true" />
@@ -82,7 +82,7 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/_88/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
+            <state relative-caret-position="135">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
@@ -91,8 +91,8 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/_70/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="297">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -217,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -279,6 +278,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,7 +506,8 @@
       <workItem from="1535528060281" duration="2084000" />
       <workItem from="1535541679493" duration="1874000" />
       <workItem from="1535612895129" duration="5163000" />
-      <workItem from="1535697012018" duration="4235000" />
+      <workItem from="1535697012018" duration="4262000" />
+      <workItem from="1535714894615" duration="853000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -526,7 +527,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189729000" />
+    <option name="totallyTimeSpent" value="190609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +557,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Run with VisualVM" order="9" weight="0.32949308" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20824412" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21092077" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -607,10 +608,10 @@
           <url>file://$PROJECT_DIR$/src/extend/SortSummary.java</url>
           <line>13</line>
           <properties />
-          <option name="timeStamp" value="111" />
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="112" />
+      <option name="time" value="113" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -909,22 +910,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_160/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
+        <state relative-caret-position="621">
           <caret line="23" column="5" selection-start-line="20" selection-start-column="3" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_61/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="918">
+          <caret line="34" column="5" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hard/_148/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="65" column="12" lean-forward="true" selection-end-line="76" />
+        <state relative-caret-position="1755">
+          <caret line="65" column="12" selection-end-line="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -940,14 +941,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_70/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="297">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_88/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
+        <state relative-caret-position="135">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
@@ -961,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/structure/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="1107">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#166#167#0" expanded="true" />
@@ -972,8 +973,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/extend/SortSummary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="-286">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
