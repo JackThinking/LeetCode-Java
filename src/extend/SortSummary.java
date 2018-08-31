@@ -9,13 +9,13 @@ import java.util.List;
 public class SortSummary {
 
     public static void main(String[] args) {
-        int[] test = {2,1,4,5,8};
+        int[] test = {5,4,1,3,2};
         SortSummary solution = new SortSummary();
-        solution.bubbleSortOpt(test);
+        solution.selectSortOpt(test);
     }
 
     /*
-    * 1.冒泡排序
+    * 1.冒泡排序(每次把最大的一个数放到最后面，故每次循环次数递减)
     * */
 
     public void swap(int[] list, int i, int j){
@@ -28,7 +28,7 @@ public class SortSummary {
         list[j] = temp;
     }
     public void bubbleSort(int[] list){
-        for (int i = 0; i < list.length; i++) {
+        for (int i = list.length; i > 1; i--) {
             for (int j = 0; j < list.length-1; j++) {
                 if (list[j+1]<list[j]){
                     swap(list,j,j+1);
@@ -41,7 +41,7 @@ public class SortSummary {
     * */
 
     /*
-    * 2.冒泡排序改良版
+    * 2.冒泡排序改良版(设立一个哨兵记录之前交换的坐标，减少遍历数)
     * */
     public void bubbleSortOpt(int[] list){
         int rightside = list.length;//右边界，运算需要
@@ -59,6 +59,28 @@ public class SortSummary {
     }
     /*
     * 这种做法进行了剪枝，减少了不必要的比较，在最好的情况下（已经有序），可以变为O(n)
+    * */
+
+    /*
+    * 3.选择排序(之前的冒泡是每次确定最后一次，这个是每次确定开头的一个)
+    * */
+    public void selectSortOpt(int[] list){
+
+        int len = list.length;
+        for (int i = 0; i < len; i++) {
+            int minindex = i;
+            for (int j = i+1; j < len; j++) {
+                if (list[j]<list[minindex]){
+                    minindex = j;
+                }
+            }
+            if (i!=minindex){
+                swap(list,i,minindex);
+            }
+        }
+    }
+    /*
+    * 感觉不出选择排序相对于冒泡改良版的优势所在，而且还不稳定（稳定的概念见博客）
     * */
 }
 
