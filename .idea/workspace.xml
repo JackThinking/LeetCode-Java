@@ -39,8 +39,8 @@
       <file leaf-file-name="SortSummary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/extend/SortSummary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+            <state relative-caret-position="460">
+              <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -473,7 +473,7 @@
       <workItem from="1535697012018" duration="4262000" />
       <workItem from="1535714894615" duration="2656000" />
       <workItem from="1535718291210" duration="1107000" />
-      <workItem from="1535783101619" duration="1319000" />
+      <workItem from="1535783101619" duration="3100000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -493,7 +493,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194838000" />
+    <option name="totallyTimeSpent" value="196619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,7 +571,7 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="119" />
+      <option name="time" value="121" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -929,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/extend/SortSummary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="127" column="20" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

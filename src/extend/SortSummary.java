@@ -11,7 +11,7 @@ public class SortSummary {
     public static void main(String[] args) {
         int[] test = {5,4,1,3,2};
         SortSummary solution = new SortSummary();
-        solution.insertSort(test);
+        solution.shellSort(test);
     }
 
     /*
@@ -106,12 +106,27 @@ public class SortSummary {
     * */
 
     /*
-    * 5.希尔排序
+    * 5.希尔排序（在插入排序的基础上加入步进的概念，提示一定的性能）
     * */
 
     public void shellSort(int[] list){
-
+        int len = list.length;
+        for (int step = len/2; step >0 ; step/=2) {
+            for (int i = step; i < len; i++) {//这边的确是i++
+                if (list[i]<list[i-step]){
+                    int temp = list[i];
+                    int j;
+                    for (j = i-step; j >= 0 && temp<list[j]; j-=step) {
+                        list[j+step] = list[j];
+                    }
+                    list[j+step] = temp;//
+                }
+            }
+        }
     }
+    /*
+    * 换汤不换药，本质没有得到提升
+    * */
 
 }
 
