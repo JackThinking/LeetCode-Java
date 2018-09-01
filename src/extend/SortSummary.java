@@ -11,7 +11,7 @@ public class SortSummary {
     public static void main(String[] args) {
         int[] test = {5,4,1,3,2};
         SortSummary solution = new SortSummary();
-        solution.selectSortOpt(test);
+        solution.insertSort(test);
     }
 
     /*
@@ -82,5 +82,36 @@ public class SortSummary {
     /*
     * 感觉不出选择排序相对于冒泡改良版的优势所在，而且还不稳定（稳定的概念见博客）
     * */
+
+    /*
+    * 4.插入排序(每次保持前面的都有序的，后来的加入后判断移位到所属的位置)
+    * */
+
+    public void insertSort(int[] list){
+        int len = list.length;
+        for (int i = 1; i < len; i++) {
+            if (list[i]<list[i-1]){
+                int temp = list[i];
+                int j;
+                for (j = i-1; j >= 0 && temp<list[j]; j--) {
+                    list[j+1] = list[j];
+                }
+                list[j+1] = temp;//这一步是没问题的，因为i最小取到了-1
+            }
+        }
+    }
+
+    /*
+    * 其一般复杂度还是没有改进O(n^2)，但是在有序的情况下，最佳的复杂度提示到O(n)
+    * */
+
+    /*
+    * 5.希尔排序
+    * */
+
+    public void shellSort(int[] list){
+
+    }
+
 }
 
