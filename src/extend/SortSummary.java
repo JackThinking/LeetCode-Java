@@ -129,7 +129,7 @@ public class SortSummary {
     * */
 
     /*
-    * 6.归并拍戏（分治+合并）（将一个待排序的数组，分为两个有序的数组，然后将这两个有序数组合并为一个）
+    * 6.归并排序（分治+合并）（将一个待排序的数组，分为两个有序的数组，然后将这两个有序数组合并为一个）
     * */
     public void mergeSort(int[] list){
         int len = list.length;
@@ -166,9 +166,56 @@ public class SortSummary {
         while (j<=m){
             temp[k++] = list[j++];
         }
-        for (i = 0; i < k; i++) {//temp中保存的数据再复制回list中
+        for (i = 0; i < k; i++) {//temp中保存的数据再复制回list中（这一步非常容易忘记）
             list[firstIndex + i] = temp[i];
         }
+    }
+    /*
+    * 终于到O(nlogn)了，非常适合单链表的排序，因为合并能剩下很多标志位，关键步骤是设立中点，分分和，然后就是合并的写法有点难记
+    * 还有就是其非递归的写法空间复杂度更好，详情见博客
+    * */
+
+    /*
+    * 7.堆排序（将数组构建成最大堆后，去最大的，然后长度减一重新构建，王福循环）
+    * */
+    public void heapSort(int[] list) {
+        int len = list.length;
+        buildMaxHeap(list, len);//建立大顶堆
+        for (int i = len; i > 0; i--) {
+            swap(list, 0, i - 1);//交换后，i-1位置就每次为最大
+            maxHeapAdjustDown(list, i - 1, 0);//每次交换后，就确定了排序的一个值，剩下有 i-1个元素待排
+        }
+    }
+
+    /*
+    * 次级基础函数：构建堆（len / 2 - 1是分界线，0到len / 2 - 1不是叶子节点，反之都是叶子节点）
+    * */
+    private void buildMaxHeap(int[] list, int len){//建立最大堆，利用堆维护算法
+        for (int i = len / 2 - 1; i >= 0; i--) {
+            maxHeapAdjustDown(list, len, i);
+        }
+    }
+
+    /*
+    * 核心基础函数：堆维护
+    * */
+    private void maxHeapAdjustDown(int[] list, int len, int rootIndex){
+        int temp = list[rootIndex];//根节点值保存下来
+        int subIndex = 2*rootIndex+1;//由于是从0开始的，左节点与根节点关系是这样,subIndex代表左节点，subIndex+1代表右节点
+        while(subIndex<len){
+            if (subIndex+1<len && list[subIndex+1]>list[subIndex]){
+                subIndex++;//左右节点比较
+            }
+
+            if (temp>list[subIndex]){//如果没有比根节点大的就取消
+                break;
+            }
+
+            list[rootIndex] = list[subIndex];//有比根节点大的就不断的继续寻找
+            rootIndex = subIndex;//subIndex是用来辅助定位的
+            subIndex = rootIndex*2+1;//找到最后的rootIndex
+        }
+        list[rootIndex] = temp;//找到后替换之前的temp
     }
     
 
