@@ -11,7 +11,7 @@ public class SortSummary {
     public static void main(String[] args) {
         int[] test = {5,4,1,3,2};
         SortSummary solution = new SortSummary();
-        solution.shellSort(test);
+        solution.mergeSort(test);
     }
 
     /*
@@ -127,6 +127,50 @@ public class SortSummary {
     /*
     * 换汤不换药，本质没有得到提升
     * */
+
+    /*
+    * 6.归并拍戏（分治+合并）（将一个待排序的数组，分为两个有序的数组，然后将这两个有序数组合并为一个）
+    * */
+    public void mergeSort(int[] list){
+        int len = list.length;
+        int[] temp = new int[len];
+        mergeSortImplementRecur(list, 0, len - 1, temp);
+    }
+    public void mergeSortImplementRecur(int[] list, int firstIndex, int lastIndex, int[] temp){
+        if (firstIndex>=lastIndex){
+            return;
+        }//递归先确定结束条件
+        int midIndex = (firstIndex+lastIndex)/2;
+        mergeSortImplementRecur(list,firstIndex,midIndex,temp);
+        mergeSortImplementRecur(list,midIndex+1,lastIndex,temp);
+        mergeArray(list, firstIndex, midIndex, lastIndex, temp);
+    }
+
+    public void mergeArray(int[] list, int firstIndex, int midIndex, int lastIndex, int[] temp){//temp数组用来暂存数据
+        int i = firstIndex;//左半边[firstIndex,midIndex]
+        int n = midIndex;
+        int j = midIndex+1;//右半边[midIndex+1,lastIndex]
+        int m = lastIndex;
+        int k = 0;//编织坐标
+        while (i<=n && j<=m){//循环比较
+           if (list[i]<list[j]){
+               temp[k++] =list[i++];
+           }else{
+               temp[k++] =list[j++];
+           }
+        }
+        //长度不一致的时候
+        while (i<=n){
+            temp[k++] = list[i++];
+        }
+        while (j<=m){
+            temp[k++] = list[j++];
+        }
+        for (i = 0; i < k; i++) {//temp中保存的数据再复制回list中
+            list[firstIndex + i] = temp[i];
+        }
+    }
+    
 
 }
 

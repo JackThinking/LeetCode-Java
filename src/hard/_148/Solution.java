@@ -1,6 +1,5 @@
 package hard._148;
 
-import jdk.nashorn.internal.objects.NativeUint8Array;
 import structure.ListNode;
 
 /**
