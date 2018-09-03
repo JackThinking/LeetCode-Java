@@ -11,7 +11,7 @@ public class SortSummary {
     public static void main(String[] args) {
         int[] test = {5,4,1,3,2};
         SortSummary solution = new SortSummary();
-        solution.mergeSort(test);
+        solution.quickSort(test,0,4);
     }
 
     /*
@@ -176,7 +176,7 @@ public class SortSummary {
     * */
 
     /*
-    * 7.堆排序（将数组构建成最大堆后，去最大的，然后长度减一重新构建，王福循环）
+    * 7.堆排序（将数组构建成最大堆后，去最大的，然后长度减一重新构建，往复循环）
     * */
     public void heapSort(int[] list) {
         int len = list.length;
@@ -216,6 +216,59 @@ public class SortSummary {
             subIndex = rootIndex*2+1;//找到最后的rootIndex
         }
         list[rootIndex] = temp;//找到后替换之前的temp
+    }
+    /*
+    * 堆排序涉及到了树的一些概念，涉及到树，则必然会设涉及到二分，故其复杂度会有一定的下降
+    * 缺点是由于比较和交换存在跳跃性，所以是不稳定的，并且对数据量比较大时，不适用。因为它一定要堆化。
+    * */
+
+    /*
+    * 8.快速排序（“分治”+”填坑“法，本质还是递归）
+    * */
+    public void quickSort(int[] list, int start, int end){
+        if (start>=end){
+            return;
+        }
+        int base = list[start];//左边选取基准值
+        int i = start;
+        int j = end;
+        while(i<j){
+            /*
+            * 先从右边开始找到小于基准的，换到左边
+            * */
+            while(i<j&&list[j]>=base){
+                j--;
+            }
+            if (i<j){
+                list[i++] = list[j];
+            }
+            /*
+            * 再从左边开始找
+            * */
+            while(i<j&&list[i]<=base){
+                i++;
+            }
+            if (i<j){
+                list[j--] = list[i];
+            }
+            /*
+            * 左右指针相遇，这个点填满了
+            * */
+            if (i==j){
+                list[i] = base;
+            }
+            /*
+            * i的位置已经被填满了，对剩下左右两边继续迭代
+            * */
+            quickSort(list,start,i-1);
+            quickSort(list,i+1,end);
+        }
+        /*
+        * 每次迭代确定一个值的位置，这个值是跳跃的，不一定是最大值，不一定是最小值
+        * */
+
+
+
     }
     
 
