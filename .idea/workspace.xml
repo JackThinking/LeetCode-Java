@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/extend/SortSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/extend/SortSummary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extend/SortSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extend/SortSummary.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="SortSummary.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/extend/SortSummary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="268" column="8" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="330" column="4" lean-forward="true" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,6 +66,10 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>insert</find>
+      <find>insertSort</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/medium</dir>
     </dirStrings>
@@ -421,7 +423,7 @@
       <workItem from="1535783101619" duration="3142000" />
       <workItem from="1535869949070" duration="201000" />
       <workItem from="1535870236667" duration="5994000" />
-      <workItem from="1535958627472" duration="1286000" />
+      <workItem from="1535958627472" duration="3443000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -441,7 +443,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204142000" />
+    <option name="totallyTimeSpent" value="206299000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,8 +520,14 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/extend/SortSummary.java</url>
+          <line>309</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="126" />
+      <option name="time" value="127" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -870,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/extend/SortSummary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="268" column="8" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="330" column="4" lean-forward="true" selection-start-line="330" selection-start-column="4" selection-end-line="330" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

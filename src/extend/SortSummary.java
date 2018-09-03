@@ -11,7 +11,7 @@ public class SortSummary {
     public static void main(String[] args) {
         int[] test = {5,4,1,3,2};
         SortSummary solution = new SortSummary();
-        solution.quickSort(test,0,4);
+        solution.quickSortOpt(test,0,4);
     }
 
     /*
@@ -87,7 +87,7 @@ public class SortSummary {
     * 4.插入排序(每次保持前面的都有序的，后来的加入后判断移位到所属的位置)
     * */
 
-    public void insertSort(int[] list){
+    private void insertSort(int[] list){
         int len = list.length;
         for (int i = 1; i < len; i++) {
             if (list[i]<list[i-1]){
@@ -264,13 +264,71 @@ public class SortSummary {
             quickSort(list,i+1,end);
         }
         /*
-        * 每次迭代确定一个值的位置，这个值是跳跃的，不一定是最大值，不一定是最小值
+        * 每次迭代确定若干个值的位置，这个值是跳跃的，取决于选取的基准值，如果基准值是最大或最小，那总是只能确定一个，所以最好选取中间值
         * */
 
 
 
     }
-    
+    /*
+     * 9.快速排序改良版
+     * */
+    public void quickSortOpt(int[] list, int start, int end) {
+        if (end - start < 2) {//优化1，小数据采用 直接插入法
+            insertSort(list, start, end);
+        } else {
+            while (start < end) {//优化2,尾递归减少调用栈???????
+                int i = start;
+                int j = end;
+                //优化3。采用中值法，选择基准值，顺序有一定的要求们才能保准start坐标是中间值
+                int mid = (start + end) / 2;
+                if (list[start] > list[end]) {
+                    swap(list, start, end);
+                }
+                if (list[mid] > list[end]) {
+                    swap(list, mid, end);
+                }
+                if (list[mid] > list[start]) {
+                    swap(list, mid, start);
+                }
+                int base = list[start];
+                while (i < j) {
+                    while (i < j && list[j] >= base) {
+                        j--;
+                    }
+                    if (i < j) {
+                        list[i++] = list[j];
+                    }
+                    while (i < j && list[i] <= base) {
+                        i++;
+                    }
+                    if (i < j) {
+                        list[j--] = list[i];
+                    }
+                }
+                if (i == j) {
+                    list[i] = base;
+                }
+                quickSortOpt(list, start, i - 1);
+                start = i + 1;//优化2 尾递归
+            }
+        }
+    }
+    private void insertSort(int[] data, int start, int end) {
+        for (int i = start + 1; i <= end; i++) {
+            if (data[i - 1] > data[i]) {
+                int tmp = data[i];
+                int j;
+                for (j = i - 1; j >= 0 && tmp < data[j]; j--) {
+                    data[j + 1] = data[j];
+                }
+                data[j + 1] = tmp;
+            }
+        }
+    }
+    /*
+    * 改良后的算法适合非常大数据的时候会好用，改良3将递归扁平化了，改良1将小数据用插入算法（基本有序时插入算法效率好）提供效率，优化3的中值法让单次过程尽可能多的确定位置
+    * */
 
 }
 
