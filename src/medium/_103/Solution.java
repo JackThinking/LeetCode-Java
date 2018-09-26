@@ -1,4 +1,4 @@
-package easy._102;
+package medium._103;
 
 import structure.TreeNode;
 
@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Citrix on 2018/9/25.
+ * Created by Citrix on 2018/9/26.
  */
 public class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         helper(res, root, 0);
         return res;
@@ -22,10 +22,12 @@ public class Solution {
         if (level >= res.size()) {
             res.add(new ArrayList<>());
         }
-        res.get(level).add(node.val);
+        if (level % 2 == 0) {
+            res.get(level).add(node.val);
+        } else {
+            res.get(level).add(0, node.val);
+        }
         helper(res, node.left, level + 1);
         helper(res, node.right, level + 1);
     }
-
-
 }
