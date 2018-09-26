@@ -12,7 +12,7 @@ public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res=new ArrayList<>();
         helper(res, root);
-        return res;
+        return res;//将helper函数设置成void,在参数表中加入答案res,这种方式遇到两次了，与其他对比一下
     }
     private void helper(List<Integer> res, TreeNode node){
         if (node != null){
