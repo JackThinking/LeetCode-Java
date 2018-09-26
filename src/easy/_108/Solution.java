@@ -14,20 +14,19 @@ public class Solution {//中序遍历
         if (nums.length == 0){
             return null;
         }
-        return helper(nums, 0, nums.length-1);//这边的确就直接return结果就好
+        return helper(nums, 0, nums.length-1);//取中点自然而然想到要有左右边缘信息
     }
-    private TreeNode helper(int[] nums, int left, int right){
-        if (left>right){
+    private TreeNode helper(int[] nums, int low, int high){
+        if (low > high){
             return null;
-        }//分开考虑会更好
-        if (left == right){
-            return new TreeNode(nums[left]);
         }
-        //取中点的时候注意公式
-        int mid = left + (right-left)/2;
-        TreeNode newnode = new TreeNode(nums[mid]);
-        newnode.left = helper(nums, left, mid-1);
-        newnode.right = helper(nums, mid+1, right);
-        return  newnode;
+        if (low == high){
+            return new TreeNode(nums[low]);
+        }
+        int mid = low + (high - low)/2;
+        TreeNode node = new TreeNode(nums[mid]);
+        node.left = helper(nums, low, mid-1);
+        node.right = helper(nums, mid+1, high);
+        return node;
     }
 }
