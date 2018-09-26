@@ -21,7 +21,7 @@ public class Solution {//中序遍历
             return null;
         }//分开考虑会更好
         if (left == right){
-            return new TreeNode(nums[left])
+            return new TreeNode(nums[left]);
         }
         //取中点的时候注意公式
         int mid = left + (right-left)/2;
