@@ -7,15 +7,18 @@ import structure.TreeNode;
  */
 public class Solution {
     public boolean isValidBST(TreeNode root) {
-        return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
+        //1.子树与节点大小的比较
+        //2.停止条件
+        return helper(root, Long.MAX_VALUE, Long.MIN_VALUE);
     }
-    private boolean helper(TreeNode root, long min, long max){
-        if (root == null){
+    private boolean helper(TreeNode node, long min ,long max){
+        if (node == null){
             return true;
         }
-        if (root.val>=max || root.val<= min){
+        if (node.val>=max || node.val<=min){
             return false;
         }
-        return helper(root.left, min, root.val)&&helper(root.right, root.val, max);
+        return helper(node.left, min, node.val) && helper(node.right, node.val, max);
+
     }
 }

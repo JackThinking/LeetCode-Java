@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/_104/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/_104/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/_108/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/_108/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/_98/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/_98/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,19 +41,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1426" />
+          <entry key="java" value="1671" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1426" />
+          <entry key="JAVA" value="1671" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/easy/_104/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="597">
@@ -64,15 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/easy/_98/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -184,11 +178,11 @@
         <option value="$PROJECT_DIR$/src/medium/_241/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_4/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_324/Solution.java" />
-        <option value="$PROJECT_DIR$/src/easy/_98/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_101/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_102/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_108/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_104/Solution.java" />
+        <option value="$PROJECT_DIR$/src/easy/_98/Solution.java" />
       </list>
     </option>
   </component>
@@ -290,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537929208023" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537930138643" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -509,7 +503,7 @@
       <workItem from="1537791356803" duration="3982000" />
       <workItem from="1537855899284" duration="1858000" />
       <workItem from="1537876257062" duration="1967000" />
-      <workItem from="1537928534970" duration="525000" />
+      <workItem from="1537928534970" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -529,7 +523,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240723000" />
+    <option name="totallyTimeSpent" value="241271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,7 +538,7 @@
     <frame x="0" y="22" width="1920" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.19166666" />
+      <window_info content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.19700214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -559,7 +553,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.496788" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" weight="0.21767956" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" visible="true" weight="0.21729238" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503212" side_tool="true" weight="0.27531284" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3278302" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49571735" weight="0.3278302" />
@@ -930,17 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/_98/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_101/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -969,6 +952,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/_98/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
         </state>
       </provider>
     </entry>
