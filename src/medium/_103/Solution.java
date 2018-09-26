@@ -25,7 +25,7 @@ public class Solution {
         if (level % 2 == 0) {
             res.get(level).add(node.val);
         } else {
-            res.get(level).add(0, node.val);
+            res.get(level).add(0, node.val);//偷懒的话用add的额外用法，可以指定插入的序号，一直在0插入的话，相当于数据是逆向存的
         }
         helper(res, node.left, level + 1);
         helper(res, node.right, level + 1);
