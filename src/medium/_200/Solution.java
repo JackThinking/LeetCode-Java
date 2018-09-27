@@ -22,7 +22,7 @@ public class Solution {
                 }
             }
         }
-        return count;.
+        return count;
     }
 
     private void dfsSearch(char[][] grid, int i, int j) {
