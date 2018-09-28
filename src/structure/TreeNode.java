@@ -4,7 +4,7 @@ package structure;
  * Created by Citrix on 2018/8/19.
  */
 public class TreeNode {
-    public int      val;
+    public int val;
     public TreeNode left;
     public TreeNode right;
 
