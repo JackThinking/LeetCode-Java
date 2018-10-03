@@ -32,13 +32,13 @@ public class Solution {
     public int kthSmallest(TreeNode root, int k) {
         int count = count(root.left);
         if (k > count + 1) {
-            return kthSmallest(root.right, k - count - 1);//对于大小的判断不够熟练，不是void的话，要return的！！！
+            return kthSmallest(root.right, k - count - 1);
         } else if (k <= count) {
             return kthSmallest(root.left, k);
+        } else {
+            return root.val;
         }
-        return root.val;//就是当k=count+1的时候，结束递归
     }
-
     private int count(TreeNode node) {
         if (node == null) {
             return 0;
