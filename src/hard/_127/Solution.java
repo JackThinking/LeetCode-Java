@@ -10,8 +10,9 @@ import java.util.Set;
  */
 public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> words = new HashSet<>();
-        for (String word : wordList) {
+        Set<String> words = new HashSet<>();//...
+        for (String word : wordList
+        ) {
             words.add(word);
         }
         if (!words.contains(endWord)) {
@@ -19,42 +20,40 @@ public class Solution {
         }
         List<String> curr = new ArrayList<>();
         curr.add(beginWord);
-        List<String> next = null;//这边是因为while循环中要反复生成
+        List<String> next = null;
         int level = 1;
         while (!curr.isEmpty()) {
             next = new ArrayList<>();
-            for (String word : curr
-            ) {
-                if (word.equals(endWord)) {//TODO 不是==
+            for (String word : curr) {
+                if (word.equals(endWord)) {
                     return level;
                 }
-                next.addAll(getnext(word, words));//TODO
+                next.addAll(getNext(word, words));
             }
-            curr = next;//没想到，这个是逻辑重点
             level++;
+            curr = next;
         }
         return 0;
     }
 
-    private List<String> getnext(String word, Set<String> words) {//TODO 返回类型搞不清楚
-        List<String> next = new ArrayList<>();
-        int diff = 0;
-        for (String w : words
-        ) {
-            diff = 0;
+    private List<String> getNext(String word, Set<String> words) {//函数的作用是找出words中与word只差一字只差的序列，并将其删除
+        List<String> res = new ArrayList<>();
+        int count;
+        for (String w : words) {
+            count = 0;
             for (int i = 0; i < word.length(); i++) {
-                if (word.charAt(i) != w.charAt(i)) {
-                    diff++;
+                if (w.charAt(i) != word.charAt(i)) {
+                    count++;
                 }
-                if (diff > 1) {
+                if (count > 1) {
                     break;
                 }
             }
-            if (diff == 1) {
-                next.add(w);
+            if (count == 1) {
+                res.add(w);
             }
         }
-        words.removeAll(next);
-        return next;
+        words.removeAll(res);
+        return res;
     }
 }
