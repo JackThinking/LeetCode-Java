@@ -4,9 +4,9 @@ package hard._130;
  * Created by Citrix on 2018/10/4.
  */
 /*
-* 这道题用逆向思维做，不能变X就一定要和边缘相连，那可以反过来，先对边缘进行dfs延伸，延伸所到之处赋予特殊符号*
-* 然后再遍历一次的时候就简单了，与O变X，遇*变O。原来的想法是对两种情况进行判别，还要记录坐标，最后还要根据坐标改，麻烦了
-* */
+ * 这道题用逆向思维做，不能变X就一定要和边缘相连，那可以反过来，先对边缘进行dfs延伸，延伸所到之处赋予特殊符号*
+ * 然后再遍历一次的时候就简单了，与O变X，遇*变O。原来的想法是对两种情况进行判别，还要记录坐标，最后还要根据坐标改，麻烦了
+ * */
 public class Solution {
     public void solve(char[][] board) {
         if (board.length == 0 || board[0].length == 0) {
@@ -15,6 +15,7 @@ public class Solution {
         if (board.length < 2 || board[0].length < 2) {
             return;
         }
+        //从4条边出发进行dfs
         int m = board.length;
         int n = board[0].length;
         for (int i = 0; i < m; i++) {
@@ -54,11 +55,11 @@ public class Solution {
         if (i > 1 && board[i - 1][j] == 'O') {
             dfs(board, i - 1, j);
         }
-        if (j > 1 && board[i][j - 1] == 'O') {
-            dfs(board, i, j - 1);
-        }
         if (i < board.length - 2 && board[i + 1][j] == 'O') {
             dfs(board, i + 1, j);
+        }
+        if (j > 1 && board[i][j - 1] == 'O') {
+            dfs(board, i, j - 1);
         }
         if (j < board[0].length - 2 && board[i][j + 1] == 'O') {
             dfs(board, i, j + 1);
