@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hard/_329/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hard/_315/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,22 +33,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="38" />
+          <entry key="java" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="38" />
+          <entry key="JAVA" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11061" />
+          <entry key="java" value="11553" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11061" />
+          <entry key="JAVA" value="11553" />
         </counts>
       </usages-collector>
     </session>
@@ -76,39 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hard/_329/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="1226">
               <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="1251" selection-start-line="1251" selection-end-line="1251" />
-              <folding>
-                <element signature="e#49082#49083#0" expanded="true" />
-                <element signature="e#52232#52233#0" expanded="true" />
-                <element signature="e#52271#52272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="281" selection-start-line="281" selection-end-line="281" />
-              <folding>
-                <element signature="e#10388#10389#0" expanded="true" />
-                <element signature="e#15586#15587#0" expanded="true" />
-                <element signature="e#15631#15632#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -116,8 +88,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hard/_4/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="75" column="5" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="1351">
+              <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hard/_315/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hard/_84/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_20/Solution.java" />
         <option value="$PROJECT_DIR$/src/easy/_682/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_647/Solution.java" />
@@ -250,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/hard/_207/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_210/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_329/Solution.java" />
+        <option value="$PROJECT_DIR$/src/hard/_315/Solution.java" />
       </list>
     </option>
   </component>
@@ -394,40 +378,6 @@
               <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="_4" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="_210" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="_329" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="hard" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="_547" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="structure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -476,7 +426,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539334811655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539346031980" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -710,7 +660,7 @@
       <workItem from="1538740630516" duration="3545000" />
       <workItem from="1538918045309" duration="1736000" />
       <workItem from="1538979613167" duration="1764000" />
-      <workItem from="1539323881309" duration="7738000" />
+      <workItem from="1539323881309" duration="10145000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -730,7 +680,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283668000" />
+    <option name="totallyTimeSpent" value="286075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,7 +695,7 @@
     <frame x="0" y="22" width="1920" height="1004" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.20770878" />
+      <window_info active="true" content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.20770878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -756,11 +706,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32665095" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.496788" weight="0.20524515" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32383123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32383123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.496788" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" weight="0.13340935" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" visible="true" weight="0.13340935" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503212" side_tool="true" weight="0.27531284" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3278302" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49571735" weight="0.3278302" />
@@ -768,7 +718,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32900944" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" weight="0.32900944" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="14" weight="0.32949308" />
-      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.2923777" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.2919042" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -819,13 +769,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/medium/_62/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_88/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1175,13 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/_4/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1196,8 +1132,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hard/_329/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="1226">
           <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hard/_4/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1351">
+          <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hard/_315/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
