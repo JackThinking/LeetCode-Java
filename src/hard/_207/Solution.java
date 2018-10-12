@@ -11,8 +11,14 @@ public class Solution {
         for (int i = 0; i < numCourses; i++) {
             graph[i] = new ArrayList();
         }
+        /*
+        * 二维数据的转化，把一行的节点关系，转化成每个点到其他店的链接关系
+        * */
         boolean[] visited = new boolean[numCourses];
         boolean[] dp = new boolean[numCourses];
+        /*
+        * 本题逻辑是靠dp来存储是否能一条路走到底，陷入循环的话，回因为已经visited，而返回还是false的dp
+        * */
         for (int i = 0; i < prerequisites.length; i++) {
             graph[prerequisites[i][1]].add(prerequisites[i][0]);
         }
