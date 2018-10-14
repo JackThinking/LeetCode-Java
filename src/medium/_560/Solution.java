@@ -1,5 +1,8 @@
 package medium._560;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by Citrix on 2018/10/14.
  */
@@ -32,6 +35,20 @@ public class Solution {
             }
         }
         return count;*/
-
+        /*
+        * 有点难理解
+        * */
+        int count = 0;
+        int sum = 0;
+        Map<Integer,Integer> hashmap = new HashMap<>();
+        hashmap.put(0,1);
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            if (hashmap.containsKey(sum-k)){
+                count+= hashmap.get(sum-k);
+            }
+            hashmap.put(sum, hashmap.getOrDefault(sum,0)+1);
+        }
+        return count;
     }
 }
