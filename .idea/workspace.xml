@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/_653/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/_617/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/_617/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/_653/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/_653/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14280" />
+          <entry key="java" value="14877" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14280" />
+          <entry key="JAVA" value="14877" />
         </counts>
       </usages-collector>
     </session>
@@ -98,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/easy/_653/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="502">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -620,7 +618,7 @@
       <workItem from="1539409998369" duration="5991000" />
       <workItem from="1539494516730" duration="5557000" />
       <workItem from="1539516580228" duration="2102000" />
-      <workItem from="1539583713440" duration="1713000" />
+      <workItem from="1539583713440" duration="3564000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -640,7 +638,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301850000" />
+    <option name="totallyTimeSpent" value="303701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,7 +653,7 @@
     <frame x="0" y="22" width="1920" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.21841542" />
+      <window_info content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.21841542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -670,7 +668,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.496788" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" visible="true" weight="0.13257143" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" visible="true" weight="0.13257143" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503212" side_tool="true" weight="0.27531284" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3278302" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49571735" weight="0.3278302" />
@@ -1090,8 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/easy/_653/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="502">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
