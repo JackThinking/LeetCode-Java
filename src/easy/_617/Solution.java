@@ -1,5 +1,4 @@
 package easy._617;
-6
 import structure.TreeNode;
 
 /**
@@ -20,7 +19,7 @@ public class Solution {
             node.right = helper(t1.right, t2.right);
         } else if (t1 == null && t2 != null) {
             node = t2;
-        } else W {
+        } else {
             node = t1;
         }
         return node;
