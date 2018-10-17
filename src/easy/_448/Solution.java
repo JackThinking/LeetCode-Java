@@ -1,7 +1,5 @@
 package easy._448;
 
-import sun.applet.resources.MsgAppletViewer;
-
 import java.util.ArrayList;
 import java.util.List;
 
