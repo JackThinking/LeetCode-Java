@@ -11,6 +11,9 @@ public class Solution {
     }
 
     private boolean helper(TreeNode p, TreeNode q) {
+        /*
+        * 这种双节点的结束方式不是第一次见了，要完全相同才能正确执行
+        * */
         if (p == null && q == null) {
             return true;
         }
