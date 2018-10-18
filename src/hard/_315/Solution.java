@@ -9,18 +9,19 @@ import java.util.List;
 public class Solution {
     public List<Integer> countSmaller(int[] nums) {
         int[] res = new int[nums.length];
-        List<Integer> list = new ArrayList<>();
-        for (int i = nums.length - 1; i >= 0; i--) {
+        int n = nums.length;
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = n - 1; i >= 0; i--) {
             res[i] = insert(list, nums[i]);
         }
         list.clear();
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < n; i++) {
             list.add(res[i]);
         }
         return list;
     }
 
-    private int insert(List<Integer> list, int num) {
+    private int insert(ArrayList<Integer> list, int num) {
         int l = 0;
         int r = list.size() - 1;
         while (l <= r) {
