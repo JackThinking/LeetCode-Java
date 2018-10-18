@@ -13,7 +13,8 @@ public class Solution {
     private boolean helper(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
-        } else if (p == null || q == null) {
+        }
+        if (p == null || q == null) {
             return false;
         }
         if (p.val == q.val) {
