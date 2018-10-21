@@ -35,7 +35,9 @@ public class Solution {
         int target = sum / 2;
         return helper(nums.length - 1, nums, target);
     }
-
+    /*
+    * 为什么改成sum的情况下，时间超了，但是结果是对的，一方面sum的话还要多一个target，另外一方面发散的更厉害，不能及时停止
+    * */
     private boolean helper(int index, int[] nums, int remain) {
         if (index == -1) {
             return false;
