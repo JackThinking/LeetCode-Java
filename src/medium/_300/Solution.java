@@ -12,7 +12,7 @@ public class Solution {
         int size = 0;
         for (int num:nums) {
             int i = 0,j = size;
-            while(i!=j){
+            while(i!=j){//这边居然是不等于？？？
                 int m = i + (j-i)/2;
                 if (num>tail[m]){
                     i = m+1;
