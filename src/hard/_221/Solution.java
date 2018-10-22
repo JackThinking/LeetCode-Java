@@ -10,6 +10,9 @@ public class Solution {
         int rows = matrix.length;
         if (rows == 0) return 0;
         int cols = matrix[0].length;
+        /*
+        * 自己做的时候想到了可能会需要重复判断，加一个备忘录不就行了嘛，死脑筋
+        * */
         boolean[][] visited = new boolean[rows][cols];
         dfs(matrix, visited, 0, 0);
         return max * max;
@@ -36,6 +39,9 @@ public class Solution {
         if (row + max >= matrix.length || col + max >= matrix[0].length) {
             return false;
         }
+        /*
+        * 如何跳出双for循环，这个提供了一个好的想法
+        * */
         boolean isValid = true;
         for (int i = row; i <= row + max; i++) {
             for (int j = col; j <= col + max; j++) {
