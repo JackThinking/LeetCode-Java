@@ -24,7 +24,7 @@ public class Solution {
     private int insert(ArrayList<Integer> list, int num) {
         int l = 0;
         int r = list.size() - 1;
-        while (l <= r) {
+        while (l <= r) {//是要等于号的，否则刚开始进不去，动态扩容的话
             int m = l + (r - l) / 2;
             if (list.get(m) >= num) {
                 r = m - 1;
