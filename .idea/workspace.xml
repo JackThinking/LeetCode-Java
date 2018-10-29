@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hard/_31/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_46/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/_47/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hard/_76/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hard/_76/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,22 +38,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="114" />
+          <entry key="java" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="114" />
+          <entry key="JAVA" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="29523" />
+          <entry key="java" value="29614" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29523" />
+          <entry key="JAVA" value="29614" />
         </counts>
       </usages-collector>
     </session>
@@ -117,10 +115,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/_47/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_46/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-268">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="547">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hard/_124/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_547/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_207/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_210/Solution.java" />
@@ -215,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/hard/_76/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_31/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_46/Solution.java" />
+        <option value="$PROJECT_DIR$/src/medium/_47/Solution.java" />
       </list>
     </option>
   </component>
@@ -397,6 +407,27 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="_46" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="_47" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="_406" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -703,7 +734,7 @@
       <workItem from="1540468466669" duration="3311000" />
       <workItem from="1540553454915" duration="2531000" />
       <workItem from="1540727664347" duration="3046000" />
-      <workItem from="1540795906343" duration="2028000" />
+      <workItem from="1540795906343" duration="2698000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -723,7 +754,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369229000" />
+    <option name="totallyTimeSpent" value="369899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,7 +769,7 @@
     <frame x="0" y="22" width="1920" height="1003" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.3003212" />
+      <window_info active="true" content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.21895075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -753,7 +784,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.496788" weight="0.32914287" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" weight="0.1324201" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4962527" visible="true" weight="0.1324201" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.503212" side_tool="true" weight="0.272" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32685715" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49571735" weight="0.3278302" />
@@ -789,7 +820,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="coinChange" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/easy/_437.java" />
     <entry file="file://$PROJECT_DIR$/src/easy/_543/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1147,8 +1177,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_46/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="547">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_47/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
