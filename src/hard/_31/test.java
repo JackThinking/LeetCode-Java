@@ -14,6 +14,9 @@ public class test {
         }
         if (i != 0) {
             int j = nums.length - 1;
+            /*
+            * 这里的判断还是出问题了，思路不够清晰
+            * */
             while (j >= i && nums[j] <= nums[i - 1]) {
                 j--;
             }
