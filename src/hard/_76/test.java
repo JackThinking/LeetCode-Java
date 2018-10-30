@@ -8,6 +8,8 @@ import java.util.Map;
 public class test {
     /*
      * 改进思路，真的要用map来存嘛，不能用数组？
+     * map里的数是属于s的，count是属于t的
+     * 一个非常象征性的例子NABCA和ABC
      * */
     public String minWindow(String s, String t) {
         int count = t.length();
