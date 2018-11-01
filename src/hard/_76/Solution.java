@@ -1,62 +1,46 @@
 package hard._76;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by Citrix on 2018/10/28.
  */
 public class Solution {
     public String minWindow(String s, String t) {
-        if (s.length() == 0 || t.length() == 0 || s.length() < t.length()) {
-            return "";
-        }
-        Map<Character, Integer> map = new HashMap<>();
+        int count = t.length();
+        int[] dict = new int[256];
         for (char c : t.toCharArray()) {
-            if (map.containsKey(c)) {
-                map.put(c, map.get(c) + 1);
-            } else {
-                map.put(c, 1);
-            }
+            dict[c]++;
         }
-        int left = 0;
-        int minLeft = 0;
-        int minLen = s.length() + 1;
-        int count = 0;
-        for (int right = 0; right < s.length(); right++) {
-            if (map.containsKey(s.charAt(right))) {
-                map.put(s.charAt(right), map.get(s.charAt(right)) - 1);
-                /*
-                 * if的条件忘记了
-                 * */
-                if (map.get(s.charAt(right)) >= 0) {
-                    count++;
+        int i = 0;
+        int j = 0;
+        int start = 0;
+        int minLen = Integer.MAX_VALUE;
+        char[] array = s.toCharArray();
+        for (; i < s.length(); i++) {
+            /*
+             * 这个while条件没有写出来，其实就是考虑到范围而已
+             * */
+            while (count != 0 && j < s.length()) {
+                if (dict[array[j]] > 0) {
+                    count--;
                 }
-                while (count == t.length()) {
-                    /*
-                    * 这边一大堆错
-                    * */
-                    if (right - left + 1 < minLen) {
-                        minLeft = left;
-                        minLen = right - left + 1;
-
-                    }
-                    if (map.containsKey(s.charAt(left))) {
-                        map.put(s.charAt(left), map.get(s.charAt(left)) + 1);
-                        /*
-                         * 这边应该是可以去掉if的
-                         * */
-                        if (map.get(s.charAt(left)) > 0) {
-                            count--;
-                        }
-                    }
-                    left++;
-                }
+                dict[array[j]]--;
+                j++;
             }
+            /*
+             * 这边的判断条件也失误了
+             * */
+            if (count == 0 && j - i < minLen) {
+                minLen = j - i;
+                start = i;
+            }
+            /*
+             * 这里的细节还是不清楚，这个算法好就在count的技术和dict里面的数字是分开的，要是s有t多余的字符是不会造成影响的，因为在前面就被设置成负数了
+             * */
+            if (dict[array[i]] == 0) {
+                count++;
+            }
+            dict[array[i]]++;
         }
-        if (minLen > s.length()) {
-            return "";
-        }
-        return s.substring(minLeft, minLeft + minLen);
+        return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start + minLen);
     }
 }

@@ -29,4 +29,10 @@ public class test {
         }
         return false;
     }
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        String s = "aa";
+        String p = "a*";
+        System.out.println(solution.isMatch(s,p));
+    }
 }
