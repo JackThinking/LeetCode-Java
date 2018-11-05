@@ -19,7 +19,9 @@ public class test {
         dfs(nums, visited, list, res);
         return res;
     }
-
+    /*
+    * 这个dfs算是找可能性的一种范式吧
+    * */
     private void dfs(int[] nums, boolean[] visited, List<Integer> list, List<List<Integer>> res) {
         if (list.size() == nums.length) {
             res.add(new ArrayList<>(list));
