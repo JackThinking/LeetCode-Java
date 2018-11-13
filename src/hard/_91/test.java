@@ -9,19 +9,19 @@ public class test {
             return 0;
         }
         int n = s.length();
-        int[] dp = new int[n + 1];
-        dp[0] = 1;//为了i-2
-        dp[1] = s.charAt(0) != '0' ? 1 : 0;//为了i-1
-        for (int i = 2; i <= n; i++) {
-            int frist = Integer.valueOf(s.substring(i - 1, i));
-            int second = Integer.valueOf(s.substring(i - 2, i));
-            if (frist > 0 && frist <= 9) {
-                dp[i] += dp[i - 1];
+        int pre = 1;
+        int now = s.charAt(n - 1) == '0' ? 0 : 1;
+        int curr = now;
+        for (int i = n - 2; i >= 0; i--) {
+            if (s.charAt(i) == '0') {
+                curr = 0;
+            } else {
+                curr = Integer.parseInt(s.substring(i, i + 2)) < 27 ? pre + now : now;
             }
-            if (second >= 10 && second <= 26) {
-                dp[i] += dp[i - 2];
-            }
+            pre = now;
+            now =curr;
         }
-        return dp[n];
+
+        return curr;
     }
 }
