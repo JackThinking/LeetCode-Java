@@ -12,7 +12,7 @@ public class Review {
         }
         ListNode slow = head, fast = head, pre = head;
         /*
-         * 这个相当于是二分啦
+         * 这个相当于是二分啦,链表的二分很有特色
          * */
         while (fast != null && fast.next != null) {//有fast的存在，判断的时候需要有两个判断条件
             pre = slow;//这个pre用来切数组，周末一定要把链表的
@@ -26,6 +26,9 @@ public class Review {
     }
 
     private ListNode merge(ListNode left, ListNode right) {
+        /*
+        * merge考虑的点其实也是4个，不过好像merge的递归调用更加的简洁
+        * */
         if (left == null) {
             return right;
         }
