@@ -6,7 +6,7 @@ package easy._125;
 public class Solution {
     public boolean isPalindrome(String s){
         /*String test = s.replaceAll("[^a-z^A-Z]", "").toLowerCase();
-        char[] arr = test.toCharArray();
+        char[] arr = test123.toCharArray();
         for (int i = 0; i < arr.length/2; i++) {
             if(arr[i] != arr[arr.length-i-1]){
                 return false;
