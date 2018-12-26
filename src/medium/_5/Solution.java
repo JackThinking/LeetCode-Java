@@ -14,7 +14,7 @@ public class Solution {
         if (len < 2) {
             return s;
         }
-        for (int i = 0; i < len-1; i++) {
+        for (int i = 0; i < len - 1; i++) {
             helper(s, i, i);//奇数情况
             helper(s, i, i + 1);//偶数情况
         }
@@ -27,8 +27,14 @@ public class Solution {
             right++;
         }
         if (right - left - 1 > maxLen) {
-            lo = left + 1;
+            lo = left + 1;//由于此时的lo是失败的一次位置，故总是要向前走一步的
             maxLen = right - left - 1;
         }
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        String nums = "babad";
+        System.out.println(solution.longestPalindrome(nums));
     }
 }
