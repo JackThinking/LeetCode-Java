@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment="coinChange">
-      <change beforePath="$PROJECT_DIR$/src/medium/_5/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/_5/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/_334/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/medium/_300/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/_300/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_3/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="1862">
+              <caret line="50" column="5" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,60 +39,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_5/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="24">
               <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/_334/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="659" selection-start-line="659" selection-end-line="659" />
-              <folding>
-                <element signature="e#22786#22787#0" expanded="true" />
-                <element signature="e#22821#22822#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="594">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/_2/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/medium/_300/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/_11/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/medium/_300/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="42" column="5" selection-start-line="38" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/easy/_20/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/_347/Review.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="14" column="9" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="-39">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,14 +139,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/medium/_394/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_221/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_221/test.java" />
         <option value="$PROJECT_DIR$/src/medium/_416/test.java" />
         <option value="$PROJECT_DIR$/src/hard/_188/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_300/test.java" />
         <option value="$PROJECT_DIR$/src/hard/_315/Solution.java" />
-        <option value="$PROJECT_DIR$/src/medium/_300/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_581/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_152/test.java" />
         <option value="$PROJECT_DIR$/src/hard/_301/Solution.java" />
@@ -210,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/medium/_49/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_3/Solution.java" />
         <option value="$PROJECT_DIR$/src/medium/_5/Solution.java" />
+        <option value="$PROJECT_DIR$/src/medium/_300/Solution.java" />
+        <option value="$PROJECT_DIR$/src/medium/_334/Solution.java" />
       </list>
     </option>
   </component>
@@ -368,7 +348,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -392,25 +371,19 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="_3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="_5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="_334" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545811361542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545911855485" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -738,7 +711,8 @@
       <workItem from="1543318435274" duration="2367000" />
       <workItem from="1545562765933" duration="3199000" />
       <workItem from="1545650854119" duration="2855000" />
-      <workItem from="1545808581438" duration="2206000" />
+      <workItem from="1545808581438" duration="2221000" />
+      <workItem from="1545910096629" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -758,7 +732,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423633000" />
+    <option name="totallyTimeSpent" value="424268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,10 +744,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1000" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.17558886" />
+      <window_info active="true" content_ui="combo" x="780" y="85" width="359" height="879" id="Project" order="0" visible="true" weight="0.17773019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -788,7 +762,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.496788" weight="0.32914287" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49571735" weight="0.1305842" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49571735" visible="true" weight="0.1305842" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50428265" side_tool="true" weight="0.1324201" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32646048" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49571735" weight="0.3278302" />
@@ -823,21 +797,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="coinChange" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hard/_32/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/_10/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/_76/test.java" />
     <entry file="file://$PROJECT_DIR$/src/medium/_47/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1129,6 +1088,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="659" selection-start-line="659" selection-end-line="659" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_3/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="50" column="5" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/hard/_148/Review.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -1150,31 +1130,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/medium/_3/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="659" selection-start-line="659" selection-end-line="659" />
-          <folding>
-            <element signature="e#22786#22787#0" expanded="true" />
-            <element signature="e#22821#22822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_5/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="24">
           <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_300/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_300/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/_334/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>

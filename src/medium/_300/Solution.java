@@ -1,6 +1,5 @@
 package medium._300;
 
-import java.util.Arrays;
 
 /**
  * Created by Citrix on 2018/7/9.
