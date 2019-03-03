@@ -1,0 +1,70 @@
+package extend;
+
+/**
+ * Created by Citrix on 2019-03-03.
+ */
+public class Knapsack01 {
+    public int[][] memo;
+
+    public int knapsack01_1(int[] w, int[] v, int C) {
+        int n = w.length;
+        memo = new int[w.length][C + 1];//这个错误太傻了
+        for (int i = 0; i < w.length; i++) {
+            for (int j = 0; j <= C; j++) {
+                memo[i][j] = -1;
+            }
+        }
+        return bestValue(w, v, n - 1, C);
+    }
+
+    public int bestValue(int[] w, int[] v, int index, int c) {
+        //先判断截止条件
+        if (index < 0 || c <= 0) {
+            return 0;
+        }
+        if (memo[index][c] != -1) {
+            return memo[index][c];
+        }
+        int res = bestValue(w, v, index - 1, c);//首先会有一个用来比较的初始res值
+        if (c >= w[index]) {//这个判断条件可以从递推的式子里看出来
+            res = Math.max(res, v[index] + bestValue(w, v, index - 1, c - w[index]));//没有价值的累计怎么玩
+        }
+        memo[index][c] = res;
+        return res;
+    }
+
+    public int knapsack01_2(int[] w, int[] v, int C) {
+        if (w.length != v.length) {
+            return -1;
+        }
+        int n = w.length;
+        int[][] memo2 = new int[n][C + 1];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= C; j++) {
+                memo2[i][j] = -1;
+            }
+        }
+        //初始化边界值，想不到的话，从后面的递归式子可以看出
+        for (int i = 0; i <= C; i++) {
+            memo2[0][i] = i > w[0] ? v[0] : 0;//这个式子的含义没有理解清楚
+        }
+        //i表示选择的背包，j表示可用容量
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j <= C; j++) {
+                memo2[i][j] = memo2[i - 1][j];//相当于最开始的res
+                if (j >= w[i]) {//if的式子与下面的递归照相辉映
+                    memo2[i][j] = Math.max(memo2[i][j], v[i] + memo2[i - 1][j - w[i]]);
+                }
+            }
+        }
+        return memo2[n - 1][C];
+    }
+
+    public static void main(String[] args) {
+        int[] value = {6, 10, 12};
+        int[] weight = {1, 2, 3};
+        Knapsack01 k = new Knapsack01();
+        int max = k.knapsack01_2(weight, value, 5);
+        System.out.println(max);
+    }
+}
