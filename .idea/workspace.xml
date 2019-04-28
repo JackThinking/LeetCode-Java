@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580e347a-f189-4a8a-9519-ba396de2074e" name="Default" comment=";">
-      <change afterPath="$PROJECT_DIR$/src/easy/_100/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/_101/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/_104/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/_110/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/_111/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/_112/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/_226/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/_404/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_1004/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_200/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_222/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_300/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_416/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_451/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/medium/_451/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/_485/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/easy/_437/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/easy/_437/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/_103/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/_103/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/_300/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/_300/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/_416/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/_416/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/medium/_94/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/medium/_94/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medium/_300/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medium/_416/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/medium/_94/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/medium/_94/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,19 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/_200/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-              <folding>
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_300/Test.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/_1004/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="28">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/_485/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -189,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/easy/_206/Review.java" />
         <option value="$PROJECT_DIR$/src/easy/_88/Review.java" />
         <option value="$PROJECT_DIR$/src/easy/_125/Solution.java" />
         <option value="$PROJECT_DIR$/src/hard/_76/Review.java" />
@@ -240,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/medium/_300/Test.java" />
         <option value="$PROJECT_DIR$/src/medium/_416/Test.java" />
         <option value="$PROJECT_DIR$/src/medium/_1004/Solution.java" />
+        <option value="$PROJECT_DIR$/src/easy/_485/Solution.java" />
       </list>
     </option>
   </component>
@@ -378,21 +352,14 @@
               <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Code/Java/LeetCode" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="easy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Code/Java/LeetCode" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="medium._416" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Code/Java/LeetCode" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="medium" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="_1004" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="easy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="_485" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -809,7 +776,7 @@
       <workItem from="1556279175589" duration="1418000" />
       <workItem from="1556282175622" duration="495000" />
       <workItem from="1556284533001" duration="2587000" />
-      <workItem from="1556455685036" duration="684000" />
+      <workItem from="1556455685036" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="Unique Paths">
       <created>1530965522512</created>
@@ -829,7 +796,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479066000" />
+    <option name="totallyTimeSpent" value="479469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,7 +826,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.496788" weight="0.32914287" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49571735" weight="0.1861521" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49571735" visible="true" weight="0.1861521" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50428265" side_tool="true" weight="0.1324201" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32646048" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" sideWeight="0.49571735" weight="0.3278302" />
@@ -903,13 +870,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/extend/Knapsack01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4674">
-          <caret line="123" column="28" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/extend/SortSummary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9842">
@@ -1284,8 +1244,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/_1004/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="28">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/easy/_485/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
