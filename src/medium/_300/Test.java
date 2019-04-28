@@ -1,25 +1,28 @@
 package medium._300;
 
 /**
- * Created by Citrix on 2018/10/22.
+ * Created by Citrix on 2019-04-26.
  */
-public class test {
+public class Test {
     public int lengthOfLIS(int[] nums) {
-        int n = nums.length;
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int N = nums.length;
+        int[] dp = new int[N];
         int size = 0;
-        int[] temp = new int[n];
         for (int num : nums) {
             int left = 0;
             int right = size;
             while (left < right) {
                 int mid = left + (right - left) / 2;
-                if (num > temp[mid]) {
+                if (num > dp[mid]) {
                     left = mid + 1;
                 } else {
                     right = mid;
                 }
             }
-            temp[left] = num;
+            dp[left] = num;
             if (left == size) {
                 size++;
             }
